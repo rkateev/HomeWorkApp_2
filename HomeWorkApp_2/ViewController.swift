@@ -18,8 +18,17 @@ class ViewController: UIViewController {
         redLight.layer.cornerRadius = 50
         yellowLight.layer.cornerRadius = 50
         greenLight.layer.cornerRadius = 50
+        redLight.alpha = 0.3
+        yellowLight.alpha = 0.3
+        greenLight.alpha = 0.3
     }
 
 
+    @IBAction func pressButton() {
+        startButton.setTitle("Next", for: .normal)
+    }
+    
+    
+    
 }
 
