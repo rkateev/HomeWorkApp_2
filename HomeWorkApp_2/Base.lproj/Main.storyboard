@@ -22,25 +22,23 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rWv-4e-nrU">
                                         <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
                                         <color key="backgroundColor" systemColor="systemRedColor"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" secondItem="rWv-4e-nrU" secondAttribute="height" multiplier="1:1" id="Ff9-ls-Hkk"/>
-                                        </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BY0-tP-BTY">
                                         <rect key="frame" x="0.0" y="119" width="100" height="100"/>
                                         <color key="backgroundColor" systemColor="systemYellowColor"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" secondItem="BY0-tP-BTY" secondAttribute="height" multiplier="1:1" id="eRd-eO-8HP"/>
-                                        </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VI2-Od-F7G">
                                         <rect key="frame" x="0.0" y="238" width="100" height="101"/>
                                         <color key="backgroundColor" systemColor="systemGreenColor"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" secondItem="VI2-Od-F7G" secondAttribute="height" multiplier="100:101" id="Z7n-C1-mrj"/>
-                                        </constraints>
                                     </view>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="33B-lM-L46"/>
+                                    <constraint firstItem="VI2-Od-F7G" firstAttribute="height" secondItem="JeO-9u-4XR" secondAttribute="height" multiplier="0.297935" id="MdN-xv-HOx"/>
+                                    <constraint firstItem="rWv-4e-nrU" firstAttribute="height" secondItem="JeO-9u-4XR" secondAttribute="height" multiplier="0.294985" id="VdV-16-LJk"/>
+                                    <constraint firstItem="BY0-tP-BTY" firstAttribute="height" secondItem="JeO-9u-4XR" secondAttribute="height" multiplier="0.294985" id="nTA-ie-O52"/>
+                                    <constraint firstAttribute="height" constant="339" id="rci-yJ-R4v"/>
+                                </constraints>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tlX-Sz-Sv9">
                                 <rect key="frame" x="124" y="737" width="166" height="80"/>
@@ -62,7 +60,6 @@
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="tlX-Sz-Sv9" secondAttribute="bottom" constant="45" id="Ixu-X3-kBj"/>
                             <constraint firstItem="JeO-9u-4XR" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="Jpb-b4-ubT"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="JeO-9u-4XR" secondAttribute="bottom" constant="439" id="Oin-oe-Tpk"/>
                             <constraint firstItem="tlX-Sz-Sv9" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.4" id="hFh-sb-5Hb"/>
                             <constraint firstItem="JeO-9u-4XR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nVs-FL-W1M"/>
                             <constraint firstItem="tlX-Sz-Sv9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="owz-T8-sQs"/>
