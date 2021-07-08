@@ -25,6 +25,20 @@ class ViewController: UIViewController {
 
 
     @IBAction func pressButton() {
+        let colors = (redLight.alpha, yellowLight.alpha, greenLight.alpha)
+        switch colors{
+        case (1, _, _):
+            redLight.alpha = 0.3
+            yellowLight.alpha = 1
+        case (_, 1, _):
+            yellowLight.alpha = 0.3
+            greenLight.alpha = 1
+        case (_, _ , 1):
+            greenLight.alpha = 0.3
+            redLight.alpha = 1
+        default:
+            redLight.alpha = 1
+        }
         startButton.setTitle("Next", for: .normal)
     }
     
